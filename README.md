@@ -22,6 +22,7 @@ You can view the live demo of the project [here](https://health-nine-blush.verce
 
 ## File Tree
 
+```bash
 app
 ├── fonts
 │ └── OpenSans-Regular.woff
@@ -87,3 +88,4 @@ next.config.mjs
 package.json
 README.md
 tsconfig.json
+```
