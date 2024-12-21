@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className={styles.column}>
 
                     <Link href="/" className={styles.logo}>
-                        <Image src="/images/logo.png" alt="Health Logo" width={45} height={47} />
+                        <Image src="/images/Logo.png" alt="Health Logo" width={45} height={47} />
                         Health
                     </Link>
                     <p>123 Health Street, Medical City, HC 12345</p>
