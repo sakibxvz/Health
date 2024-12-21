@@ -12,7 +12,7 @@ export default function Hero() {
         <section className={styles.hero}>
             <div className={styles.container}>
                 <div className={styles.content}>
-                    <Badge text="24/7 EMERGENCY SERVICE" imageSrc="/images/logo.png" />
+                    <Badge text="24/7 EMERGENCY SERVICE" imageSrc="/images/Logo.png" />
 
                     <h1 className={styles.title} >
                         Caring for <span>Health</span>

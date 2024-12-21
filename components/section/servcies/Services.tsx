@@ -43,7 +43,7 @@ export default function Services() {
         <section className={styles.services}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <Badge text="OUR SERVICES" imageSrc="/images/logo.png" />
+                    <Badge text="OUR SERVICES" imageSrc="/images/Logo.png" />
                     <h2 className={styles.title}>Our Mediax Specialities Service</h2>
                 </div>
 

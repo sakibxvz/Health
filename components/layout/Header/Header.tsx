@@ -31,7 +31,7 @@ export default function Header() {
                 {/* Logo */}
                 <Link href="/" className={styles.logo}>
                     <Image
-                        src="/images/logo.png"
+                        src="/images/Logo.png"
                         alt="Health Logo"
                         width={45.04}
                         height={46}

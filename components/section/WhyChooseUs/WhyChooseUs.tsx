@@ -8,7 +8,7 @@ export default function WhyChooseUs() {
             <div className={styles.container}>
                 <div className={styles.content}>
                     <div className={styles.badgeWrapper}>
-                        <Badge text=" WHY CHOOSE US" imageSrc="/images/logo.png" />
+                        <Badge text=" WHY CHOOSE US" imageSrc="/images/Logo.png" />
                     </div>
                    
 

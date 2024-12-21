@@ -37,7 +37,7 @@ export default function Doctors() {
         <section className={styles.doctors}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <Badge imageSrc="/images/logo.png" text="OUR DOCTOR'S" style={{ justifyContent: 'center', color: '#004990' }} />
+                    <Badge imageSrc="/images/Logo.png" text="OUR DOCTOR'S" style={{ justifyContent: 'center', color: '#004990' }} />
                     <h2 className={styles.title}>Our Special Doctors</h2>
                     <p className={styles.description}>
                         Our team of specialists is at the forefront of medical innovation. Each specialist

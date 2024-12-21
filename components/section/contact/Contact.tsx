@@ -8,7 +8,7 @@ export default function Contact() {
         <section className={styles.contact}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <Badge text="CONTACT US" imageSrc="/images/logo.png" style={{ justifyContent: 'center', color: '#004990' }} />
+                    <Badge text="CONTACT US" imageSrc="/images/Logo.png" style={{ justifyContent: 'center', color: '#004990' }} />
                     <h2 className={styles.title}>Get A Quote Today</h2>
                     <p className={styles.description}>
                         Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The
