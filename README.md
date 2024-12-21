@@ -18,71 +18,71 @@ A brief description of your project, created using **Next.js**, **TypeScript**, 
 
 ## Live Demo
 
-You can view the live demo of the project [here](#your-live-link-here).
+You can view the live demo of the project [here](https://health-nine-blush.vercel.app/).
 
 ## File Tree
-┣ 📂app
-┃ ┣ 📂fonts
-┃ ┃ ┗ 📜OpenSans-Regular.woff
-┃ ┣ 📜favicon.ico
-┃ ┣ 📜globals.css
-┃ ┣ 📜layout.tsx
-┃ ┗ 📜page.tsx
-┣ 📂components
-┃ ┣ 📂common
-┃ ┃ ┣ 📂ui
-┃ ┃ ┃ ┣ 📜Button.module.css
-┃ ┃ ┃ ┗ 📜Button.tsx
-┃ ┃ ┣ 📜Badge.module.css
-┃ ┃ ┣ 📜Badge.tsx
-┃ ┃ ┣ 📜Divider.module.css
-┃ ┃ ┗ 📜Divider.tsx
-┃ ┣ 📂layout
-┃ ┃ ┣ 📂Footer
-┃ ┃ ┃ ┣ 📜Footer.module.css
-┃ ┃ ┃ ┗ 📜Footer.tsx
-┃ ┃ ┗ 📂Header
-┃ ┃   ┣ 📜Header.module.css
-┃ ┃   ┗ 📜Header.tsx
-┃ ┗ 📂section
-┃   ┣ 📂contact
-┃   ┃ ┣ 📜Contact.module.css
-┃   ┃ ┗ 📜Contact.tsx
-┃   ┣ 📂Doctors
-┃   ┃ ┣ 📜Doctors.module.css
-┃   ┃ ┗ 📜Doctors.tsx
-┃   ┣ 📂Hero
-┃   ┃ ┣ 📜Hero.module.css
-┃   ┃ ┗ 📜Hero.tsx
-┃   ┣ 📂servcies
-┃   ┃ ┣ 📜Services.module.css
-┃   ┃ ┗ 📜Services.tsx
-┃   ┗ 📂WhyChooseUs
-┃     ┣ 📜WhyChooseUs.module.css
-┃     ┗ 📜WhyChooseUs.tsx
-┣ 📂public
-┃ ┗ 📂images
-┃   ┣ 📂Doctor
-┃   ┃ ┣ 📜Doctor1.png
-┃   ┃ ┣ 📜Doctor2.png
-┃   ┃ ┗ 📜Doctor3.png
-┃   ┣ 📂services
-┃   ┃ ┣ 📜S1.png
-┃   ┃ ┣ 📜S2.png
-┃   ┃ ┣ 📜S3.png
-┃   ┃ ┣ 📜S4.png
-┃   ┃ ┣ 📜S5.png
-┃   ┃ ┣ 📜S6.png
-┃   ┃ ┣ 📜S7.png
-┃   ┃ ┗ 📜S8.png
-┃   ┣ 📜contact-image.png
-┃   ┣ 📜Hero Image.png
-┃   ┣ 📜Logo.png
-┃   ┗ 📜whysection.png
-┣ 📜.eslintrc.json
-┣ 📜.gitignore
-┣ 📜next-env.d.ts
-┣ 📜next.config.mjs
-┣ 📜package.json
-┣ 📜README.md
-┗ 📜tsconfig.json
+app
+├── fonts
+│   └── OpenSans-Regular.woff
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+components
+├── common
+│   ├── ui
+│   │   ├── Button.module.css
+│   │   └── Button.tsx
+│   ├── Badge.module.css
+│   ├── Badge.tsx
+│   ├── Divider.module.css
+│   └── Divider.tsx
+├── layout
+│   ├── Footer
+│   │   ├── Footer.module.css
+│   │   └── Footer.tsx
+│   └── Header
+│       ├── Header.module.css
+│       └── Header.tsx
+└── section
+    ├── contact
+    │   ├── Contact.module.css
+    │   └── Contact.tsx
+    ├── Doctors
+    │   ├── Doctors.module.css
+    │   └── Doctors.tsx
+    ├── Hero
+    │   ├── Hero.module.css
+    │   └── Hero.tsx
+    ├── servcies
+    │   ├── Services.module.css
+    │   └── Services.tsx
+    └── WhyChooseUs
+        ├── WhyChooseUs.module.css
+        └── WhyChooseUs.tsx
+public
+└── images
+    ├── Doctor
+    │   ├── Doctor1.png
+    │   ├── Doctor2.png
+    │   └── Doctor3.png
+    ├── services
+    │   ├── S1.png
+    │   ├── S2.png
+    │   ├── S3.png
+    │   ├── S4.png
+    │   ├── S5.png
+    │   ├── S6.png
+    │   ├── S7.png
+    │   └── S8.png
+    ├── contact-image.png
+    ├── Hero Image.png
+    ├── Logo.png
+    └── whysection.png
+.eslintrc.json
+.gitignore
+next-env.d.ts
+next.config.mjs
+package.json
+README.md
+tsconfig.json
