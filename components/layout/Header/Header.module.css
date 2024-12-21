@@ -1,0 +1,171 @@
+.header {
+	background: var(--background);
+	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background: transparent;
+	transition: background-color 0.3s ease;
+	padding-top: 36px;
+	padding-bottom: 1.24rem;
+	box-shadow: 0px 7.5px 15px 0px #021d350f;
+}
+
+.scrolled {
+	background: white;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem; /* Add some spacing between the image and text */
+	opacity: 1; /* Set opacity to visible */
+}
+
+.logoText {
+	font-size: 1.5rem; /* Adjust font size to fit better with the logo image */
+	font-weight: 800;
+	color: #004990;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.dot {
+	width: 45px; /* Adjust size of the logo image */
+	height: 45px; /* Make sure the height and width match for a square logo */
+}
+
+.nav {
+	display: flex;
+	gap: 2.5rem;
+}
+
+.nav a {
+	color: #102851;
+	font-weight: 400;
+	transition: color 0.2s;
+	size: 16px;
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.iconButton {
+	color: #000d44;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #b3c8de;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.2s ease;
+}
+
+.iconButton:hover {
+	background: #f8fafc;
+}
+
+.icon {
+	width: 18px;
+	height: 18px;
+	color: #000d44;
+}
+
+.badge {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	background: #004990;
+	color: white;
+	font-size: 0.75rem;
+	font-weight: 500;
+	min-width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 4px;
+}
+
+.appointmentBtn {
+	color: white;
+	padding: 0.75rem 1.5rem;
+	font-weight: 500;
+	font-size: 0.875rem;
+}
+
+.menuButton {
+	display: none;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+
+@media (max-width: 768px) {
+	.nav {
+		display: none;
+		position: fixed;
+		top: 72px;
+		left: 0;
+		right: 0;
+		background: white;
+		padding: 1rem;
+		flex-direction: column;
+		gap: 1rem;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.nav.active {
+		display: flex;
+	}
+
+	.menuButton {
+		display: block;
+	}
+
+	.appointmentBtn {
+		display: none;
+	}
+
+	.iconButton {
+		display: none; /* Hide iconButton on smaller screens */
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		padding: 0 1rem;
+	}
+
+	.logo {
+		font-size: 1.25rem;
+	}
+
+	.appointmentBtn {
+		display: none; /* Hide appointmentBtn on smaller screens */
+	}
+
+	.iconButton {
+		display: none; /* Hide iconButton on very small screens */
+	}
+}

@@ -1,0 +1,90 @@
+/* Button.module.css */
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 24px;
+	border-radius: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14.5px;
+	font-weight: 700;
+	line-height: 14.5px;
+	text-align: center;
+	gap: 10px;
+	cursor: pointer;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.button:active {
+	transform: scale(0.97);
+}
+
+.primary {
+	height: 58px;
+	border-radius: 31.07px;
+	background: linear-gradient(180deg, #014990 37.5%, #daedff 100%);
+	box-shadow: 0px 3.11px 15.54px 0px #afc2d3;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+.primary::before {
+	background-color: initial;
+	background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+	border-radius: 125px;
+	content: '';
+	height: 50%;
+	left: 4%;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	transition: all 0.3s;
+	width: 92%;
+}
+
+.secondary {
+	height: 58px;
+	background: linear-gradient(180deg, #00a4f4 37.5%, #d9f3ff 100%);
+	box-shadow: 0px 3.11px 15.54px 0px #b3d4e2e5;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.secondary::before {
+	background-color: initial;
+	background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+	border-radius: 125px;
+	content: '';
+	height: 50%;
+	left: 4%;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	transition: all 0.3s;
+	width: 92%;
+}
+.icon {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.button {
+		padding: 8px 16px;
+		font-size: 12.5px;
+		width: 100%;
+	}
+}

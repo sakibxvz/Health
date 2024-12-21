@@ -1,0 +1,159 @@
+.contact {
+	padding: 4rem 0;
+	background: white;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.title {
+	color: #000d44;
+	font-size: 2.28rem;
+	font-weight: 600;
+	line-height: 51.57px;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.description {
+	color: #788094;
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+.formWrapper {
+	display: flex; 
+	gap: 4rem; 
+	align-items: flex-start; 
+	justify-content: center; 
+	flex-wrap: wrap; 
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.form {
+	background: white;
+	padding: 2rem;
+	border: 1px solid #195B9C;
+	border-radius: 8px;
+	flex: 1; 
+}
+
+.formRow {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.formGroup {
+	margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 500;
+	color: #3C4959;
+	margin-bottom: 0.5rem;
+}
+
+.input,
+.textarea,
+.countrySelect,
+.dateSelect {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #e2e8f0;
+	border-radius: 6px;
+	font-size: 0.875rem;
+	color: #1e293b;
+	background: #f8fafc;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+	color: #94a3b8;
+}
+
+.phoneInput {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.countrySelect {
+	width: auto;
+	padding-right: 2rem;
+}
+
+.dateSelect {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.dateIcon {
+	position: absolute;
+	right: 0.75rem;
+	color: #64748b;
+	pointer-events: none;
+}
+
+.textarea {
+	resize: vertical;
+	min-height: 120px;
+}
+
+.submitBtn {
+	text-align: center;
+	display: block; 
+	margin: 0 auto; 
+	width: fit-content; 
+	min-width: 200px; 
+	padding: 0.875rem 2rem; 
+}
+
+.submitBtn:hover {
+	transform: translateY(-1px);
+}
+
+@media (max-width: 1024px) {
+	.formWrapper {
+		flex-direction: column; 
+		gap: 2rem; 
+	}
+
+	.form {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.contact .formWrapper .imageContainer {
+		display: none !important;
+	}
+}
+
+@media (max-width: 640px) {
+	.formWrapper > div:first-child {
+		display: none !important;
+	}
+
+	.title {
+		font-size: 2rem;
+	}
+
+	.formRow {
+		grid-template-columns: 1fr;
+	}
+}

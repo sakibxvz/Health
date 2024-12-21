@@ -1,0 +1,83 @@
+.dividerWrapper {
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.dividerWrapper::before,
+.dividerWrapper::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 100px); 
+    height: 1px;
+    background: #e5e7eb;
+}
+
+.dividerWrapper::before {
+    left: 0;
+}
+
+.dividerWrapper::after {
+    right: 0;
+}
+
+.divider {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 10;
+    max-width: 90%; 
+}
+
+.text {
+    color: #64748b;
+    font-size: 0.875rem;
+}
+
+.link {
+    color: #004990;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .dividerWrapper {
+        padding: 1rem 0;
+    }
+
+    .dividerWrapper::before,
+    .dividerWrapper::after {
+        width: 20%; /* Shorter lines on mobile */
+    }
+
+    .divider {
+        padding: 0.5rem 1rem;
+        flex-direction: column; /* Stack text vertically on very small screens */
+        align-items: center;
+        text-align: center;
+        gap: 0.25rem;
+    }
+
+    .text, .link {
+        font-size: 0.75rem; /* Slightly smaller text on mobile */
+    }
+}
+
+@media (max-width: 380px) {
+    .dividerWrapper::before,
+    .dividerWrapper::after {
+        width: 15%; /* Even shorter lines on very small screens */
+    }
+    
+    .divider {
+        padding: 0.5rem 0.75rem;
+    }
+}
